@@ -1,10 +1,13 @@
 {
   
   "name": "proye",
-  "version": "0.0.0",
+  "description": "a really cool app",
+  "version": "1.0.0",
   "engines": {
-    "node": "16.13.1"
+    "node": "16.x"
+  
   },
+  
 
   "scripts": {
     "ng": "ng",
