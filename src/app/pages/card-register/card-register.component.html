@@ -1,0 +1,88 @@
+
+<div class="row">
+    <div class="col-1">
+       
+    </div>
+  
+ 
+</div>
+
+<div class="row">
+<div class="col-4">
+
+</div>
+<div class="col-3">
+  <h2>Paises para visitar <span class="badge bg-secondary"></span></h2>
+  
+</div>
+</div>
+
+<div class="container">
+<div class="row">
+  
+  <div class="col-4" *ngFor="let item of  datacard ">
+    <app-cardcomponent [cardTitle]="item.cardtitul" [descripcion]="item.descri" [boton]="item.boton" [imagn]="item.il" >
+
+    </app-cardcomponent>
+     
+  </div>
+</div>
+<div class="row">
+</div>
+
+
+
+<div class="row">
+<div class="col-2">
+<button type="button" class="btn btn-primary position-relative">
+  USA
+  <span class="position-absolute top-0 start-100 translate-middle p-2 bg-danger border border-light rounded-circle">
+    <span class="visually-hidden">Nuevas alertas</span>
+  </span>
+</button>
+
+</div>
+<div class="col-2">
+<button type="button" class="btn btn-primary position-relative">
+  CUBA
+  <span class="position-absolute top-0 start-100 translate-middle p-2 bg-danger border border-light rounded-circle">
+    <span class="visually-hidden">Nuevas alertas</span>
+  </span>
+</button>
+
+</div>
+<div class="col-2">
+<button type="button" class="btn btn-primary position-relative">
+  COLOMBIA
+  <span class="position-absolute top-0 start-100 translate-middle p-2 bg-danger border border-light rounded-circle">
+    <span class="visually-hidden">Nuevas alertas</span>
+  </span>
+</button>
+
+</div>
+<div class="col-2">
+<button type="button" class="btn btn-primary position-relative">
+  PERU
+  <span class="position-absolute top-0 start-100 translate-middle p-2 bg-danger border border-light rounded-circle">
+    <span class="visually-hidden">Nuevas alertas</span>
+  </span>
+</button>
+
+</div>
+<div class="col-2">
+<button type="button" class="btn btn-primary position-relative">
+  ARGENTINA
+  <span class="position-absolute top-0 start-100 translate-middle p-2 bg-danger border border-light rounded-circle">
+    <span class="visually-hidden">Nuevas alertas</span>
+  </span>
+</button>
+
+</div>
+<div class="col-2">
+<button type="button" class="btn btn-primary position-relative">
+  CHILE
+  <span class="position-absolute top-0 start-100 translate-middle p-2 bg-danger border border-light rounded-circle">
+    <span class="visually-hidden">Nuevas alertas</span>
+  </span>
+</button>
+</div>
